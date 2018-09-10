@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/1290). 
+
 # Svetozar: an open-source e-vehicles peripherals controller 
 This device allows you to control headlights/horn/fan/etc on a typical e-bike/e-scooter. Based on a STM32F103 [Blue pill board](https://wiki.stm32duino.com/index.php?title=Blue_Pill).
 
