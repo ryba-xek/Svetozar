@@ -41,3 +41,7 @@ Supply power: 12V. Switches 12-150V devices. Supports CAN bus and [LEVCAN](https
 3. Launch Arduino IDE, go to Tools -> Board: ... -> Boards Manager and install the Arduino SAM boards (Cortex-M3) support.
 4. Download [this file](http://arduino.cc/en/Main/Software), unpack it and move and rename it to ```~/Documents/Arduino/hardware/Arduino_STM32```.
 5. In Arduino IDE select Tools -> Board: ... -> Generic STM32F103C series.
+
+## Credits
+Blue pill board library is from [github/sagarHackeD](https://github.com/sagarHackeD/STM32Bluepill_eagle)
+VOM1271T.lbr, MAX3051ESA.lbr & MC14504BDR2G.lbr are from [SnapEDA](https://www.snapeda.com/)
