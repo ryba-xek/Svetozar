@@ -1,6 +1,11 @@
 # Mac Os
 .DS_Store
 
+# my
+bom.csv
+bom.numbers
+*.zip
+
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files

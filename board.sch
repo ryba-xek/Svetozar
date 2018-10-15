@@ -27044,10 +27044,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="VOM1271T" deviceset="VOM1271T" device=""/>
-<part name="U$1" library="BluePill" deviceset="BLUE_PILL" device=""/>
-<part name="U2" library="VOM1271T" deviceset="VOM1271T" device=""/>
-<part name="U3" library="VOM1271T" deviceset="VOM1271T" device=""/>
+<part name="U1" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+<attribute name="PRICE" value="173,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827"/>
+</part>
+<part name="U$1" library="BluePill" deviceset="BLUE_PILL" device="">
+<attribute name="MPN" value="Blue Pill"/>
+<attribute name="PRICE" value="127,73р"/>
+<attribute name="SHOP" value="https://ru.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-Forarduino/32342717171.html"/>
+</part>
+<part name="U2" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+<attribute name="PRICE" value="173,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827"/>
+</part>
+<part name="U3" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+<attribute name="PRICE" value="173,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827"/>
+</part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -27061,6 +27077,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </pinmapping>
 </spice>
 <attribute name="MPN" value="RC0805FR-07160RL"/>
+<attribute name="PRICE" value="0,52р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/880371"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160">
 <spice>
@@ -27080,18 +27098,61 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </spice>
 <attribute name="MPN" value="RC0805FR-07160RL"/>
 </part>
-<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR"/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR"/>
-<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR"/>
-<part name="U4" library="MC14504BDR2G" deviceset="MC14504BDR2G" device=""/>
-<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A"/>
-<part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A"/>
-<part name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A"/>
-<part name="Q4" library="svetozar" deviceset="IRLML9301TRPBF" device=""/>
-<part name="Q5" library="my" deviceset="IRLML9301TRPBF" device=""/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR">
+<attribute name="MPN" value="IRF7465TRPBF"/>
+<attribute name="PRICE" value="26,30р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651"/>
+</part>
+<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR">
+<attribute name="MPN" value="IRF7465TRPBF"/>
+<attribute name="PRICE" value="26,30р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651"/>
+</part>
+<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR">
+<attribute name="MPN" value="IRF7465TRPBF"/>
+<attribute name="PRICE" value="26,30р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651"/>
+</part>
+<part name="U4" library="MC14504BDR2G" deviceset="MC14504BDR2G" device="">
+<attribute name="MPN" value="MC14504BDR2G"/>
+<attribute name="PRICE" value="25,70р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/284776"/>
+</part>
+<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A">
+<attribute name="MPN" value="FC-001S"/>
+<attribute name="PRICE" value="2,10р"/>
+<attribute name="QTY" value="2"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693"/>
+</part>
+<part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A">
+<attribute name="MPN" value="FC-001S"/>
+<attribute name="PRICE" value="2,10р"/>
+<attribute name="QTY" value="2"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693"/>
+</part>
+<part name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="SHK20L" device="" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A">
+<attribute name="MPN" value="FC-001S"/>
+<attribute name="PRICE" value="2,10р"/>
+<attribute name="QTY" value="2"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693"/>
+</part>
+<part name="Q4" library="svetozar" deviceset="IRLML9301TRPBF" device="">
+<attribute name="MPN" value="IRLML9301TRPBF"/>
+<attribute name="PRICE" value=" 9,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910"/>
+</part>
+<part name="Q5" library="my" deviceset="IRLML9301TRPBF" device="">
+<attribute name="MPN" value="IRLML9301TRPBF"/>
+<attribute name="PRICE" value=" 9,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910"/>
+</part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IC1" library="svetozar" deviceset="LM1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
+<part name="IC1" library="svetozar" deviceset="LM1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1">
+<attribute name="MPN" value="LD1117S33TR"/>
+<attribute name="PRICE" value="12,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/208059"/>
+</part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -27100,65 +27161,199 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BLIGHT"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="HORN"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BREAK"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BLIGHT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="HORN">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BREAK">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J9" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="ABREAK"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="ATEMP"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LHBEAM"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LRTURN"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="WARNING"/>
-<part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF"/>
-<part name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="ABREAK">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J10" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="ATEMP">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LHBEAM">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH"/>
+<attribute name="PRICE" value="9,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750"/>
+</part>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LRTURN">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH"/>
+<attribute name="PRICE" value="9,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750"/>
+</part>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="WARNING">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+<attribute name="PRICE" value="15,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875"/>
+</part>
+<part name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+<attribute name="PRICE" value="15,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875"/>
+</part>
 <part name="F6" library="svetozar" deviceset="PPTC" device="_WIDE" value="30V4A">
 <attribute name="MPN" value="MF-R400"/>
+<attribute name="PRICE" value="25,90р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123"/>
 </part>
 <part name="F7" library="svetozar" deviceset="PPTC" device="_WIDE" value="30V4A">
 <attribute name="MPN" value="MF-R400"/>
+<attribute name="PRICE" value="25,90р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123"/>
 </part>
 <part name="F4" library="SparkFun-Fuses" deviceset="PPTC" device="_PTH" value="30V/1.6A">
 <attribute name="MPN" value="30R160UU"/>
+<attribute name="PRICE" value="5,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513"/>
 </part>
 <part name="F5" library="SparkFun-Fuses" deviceset="PPTC" device="_PTH" value="30V/1.6A">
 <attribute name="MPN" value="30R160UU"/>
+<attribute name="PRICE" value="5,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513"/>
 </part>
-<part name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF"/>
+<part name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+<attribute name="PRICE" value="15,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875"/>
+</part>
 <part name="F8" library="svetozar" deviceset="PPTC" device="_WIDE" value="30V4A">
 <attribute name="MPN" value="MF-R400"/>
+<attribute name="PRICE" value="25,90р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123"/>
 </part>
-<part name="Q9" library="my" deviceset="IRLML9301TRPBF" device=""/>
+<part name="Q9" library="my" deviceset="IRLML9301TRPBF" device="">
+<attribute name="MPN" value="IRLML9301TRPBF"/>
+<attribute name="PRICE" value=" 9,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910"/>
+</part>
 <part name="F9" library="SparkFun-Fuses" deviceset="PPTC" device="_PTH" value="30V/1.6A">
 <attribute name="MPN" value="30R160UU"/>
+<attribute name="PRICE" value="5,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BATT"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LHBEAMOUT"/>
-<part name="J11" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="HORNOUT"/>
-<part name="J12" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="12V_SUPPLY"/>
-<part name="J13" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="STOPOUT"/>
-<part name="J14" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="TURNOUT"/>
-<part name="J15" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="FANOUT"/>
-<part name="J16" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BLIGHTOUT"/>
-<part name="J17" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="AUXOUT"/>
-<part name="J18" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="AUX"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BATT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="LHBEAMOUT">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH"/>
+<attribute name="PRICE" value="9,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750"/>
+</part>
+<part name="J11" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="HORNOUT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J12" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="12V_SUPPLY">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J13" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="STOPOUT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J14" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW" value="TURNOUT">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH"/>
+<attribute name="PRICE" value="9,40р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750"/>
+</part>
+<part name="J15" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="FANOUT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J16" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BLIGHTOUT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J17" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="AUXOUT">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="J18" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="AUX">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY">
-<attribute name="MPN" value="STTH4R02UY"/>
+<attribute name="MPN" value="STTH4R02U"/>
+<attribute name="PRICE" value="14,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947"/>
 </part>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY">
-<attribute name="MPN" value="STTH4R02UY"/>
+<attribute name="MPN" value="STTH4R02U"/>
+<attribute name="PRICE" value="14,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947"/>
 </part>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY">
-<attribute name="MPN" value="STTH4R02UY"/>
+<attribute name="MPN" value="STTH4R02U"/>
+<attribute name="PRICE" value="14,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947"/>
 </part>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY">
-<attribute name="MPN" value="STTH4R02UY"/>
+<attribute name="MPN" value="STTH4R02U"/>
+<attribute name="PRICE" value="14,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947"/>
 </part>
 <part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY">
-<attribute name="MPN" value="STTH4R02UY"/>
+<attribute name="MPN" value="STTH4R02U"/>
+<attribute name="PRICE" value="14,10р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947"/>
 </part>
-<part name="L1" library="inductor-bourns" deviceset="SDR1307" device="" value="15uH"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="L1" library="inductor-bourns" deviceset="SDR1307" device="" value="15uH">
+<attribute name="MPN" value="SDR1307-150ML"/>
+<attribute name="PRICE" value="21,20р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/607745"/>
+</part>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="SK016M0470B3F-0811"/>
+<attribute name="PRICE" value="2,70р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1262453"/>
+</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="RC0805JR-071KL"/>
+<attribute name="PRICE" value="0,19р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/559515"/>
+</part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
@@ -27167,17 +27362,65 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.4k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="RC0805JR-071KL"/>
+<attribute name="PRICE" value="0,17р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/443003"/>
+</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.4k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="RC0805FR-072K4L"/>
+<attribute name="PRICE" value="0,15р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/562267"/>
+</part>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="U5" library="MAX3051ESA" deviceset="MAX3051ESA" device="+T" package3d_urn="urn:adsk.eagle:package:20804/2" value="MAX3051ESA+T"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="RC0805JR-0710KL"/>
+<attribute name="PRICE" value="0,24р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/339147"/>
+</part>
+<part name="U5" library="MAX3051ESA" deviceset="MAX3051ESA" device="+T" package3d_urn="urn:adsk.eagle:package:20804/2" value="MAX3051ESA+T">
+<attribute name="MPN" value="MAX3051ESA+T"/>
+<attribute name="PRICE" value="141,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/462120"/>
+</part>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u"/>
-<part name="J19" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="CAN"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u"/>
+<part name="J19" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="CAN">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
+<attribute name="PRICE" value="5,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132"/>
+</part>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="SK016M0470B3F-0811"/>
+<attribute name="PRICE" value="2,70р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1262453"/>
+</part>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47u6V">
 <spice>
 <pinmapping spiceprefix="C">
@@ -27185,7 +27428,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="   CL31A476MQHNNNE"/>
+<attribute name="MPN" value="CL31A476MQHNNNE"/>
+<attribute name="PRICE" value="7,70р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/882710"/>
 </part>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22u16V">
 <spice>
@@ -27194,7 +27439,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="CL32A226KOJNNNE"/>
+<attribute name="MPN" value="CL31A226KOHNNNE"/>
+<attribute name="PRICE" value="12,80р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1641407"/>
 </part>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120">
 <spice>
@@ -27203,9 +27450,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MPN" value="RC0805FR-07120RL"/>
+<attribute name="PRICE" value="0,23р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/542987"/>
 </part>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="CC1206KRX7R8BB104"/>
+<attribute name="PRICE" value="2,20р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/540763"/>
+</part>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="CC0805KRX7R9BB104"/>
+<attribute name="PRICE" value="2,00р"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/251110"/>
+</part>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
 </parts>
 <sheets>
@@ -27216,15 +27486,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U1" gate="G$1" x="15.24" y="147.32">
 <attribute name="NAME" x="12.69705" y="163.5949" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="12.697109375" y="129.5197" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="15.24" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-81.28" y="109.22"/>
+<instance part="U$1" gate="G$1" x="-81.28" y="109.22">
+<attribute name="SHOP" x="-81.28" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-81.28" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U2" gate="G$1" x="15.24" y="109.22">
 <attribute name="NAME" x="12.69705" y="125.4949" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="12.697109375" y="91.4197" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="15.24" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="15.24" y="71.12">
 <attribute name="NAME" x="12.69705" y="87.3949" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="12.697109375" y="53.3197" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="15.24" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-10.16" y="134.62">
 <attribute name="VALUE" x="-12.319" y="131.445" size="1.778" layer="96"/>
@@ -27242,47 +27518,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="-65.659" y="136.525" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="-15.24" y="157.48">
-<attribute name="MPN" x="-15.24" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-19.05" y="158.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-19.05" y="154.178" size="1.778" layer="96"/>
+<attribute name="PRICE" x="-15.24" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-15.24" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="-12.7" y="119.38">
-<attribute name="MPN" x="-12.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-16.51" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-16.51" y="116.078" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="-12.7" y="81.28">
-<attribute name="MPN" x="-12.7" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-16.51" y="82.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-16.51" y="77.978" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="40.64" y="160.02">
 <attribute name="NAME" x="45.72" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="160.02" size="1.778" layer="96"/>
+<attribute name="MPN" x="40.64" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="40.64" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="40.64" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="40.64" y="121.92">
 <attribute name="NAME" x="45.72" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="121.92" size="1.778" layer="96"/>
+<attribute name="MPN" x="40.64" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="40.64" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="40.64" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="40.64" y="83.82">
 <attribute name="NAME" x="45.72" y="86.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="83.82" size="1.778" layer="96"/>
+<attribute name="MPN" x="40.64" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="40.64" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="40.64" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="A" x="-66.04" y="43.18">
 <attribute name="NAME" x="-71.41951875" y="65.0805" size="2.09061875" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="-78.169959375" y="16.9021" size="2.08935" layer="96" ratio="10" rot="SR0"/>
+<attribute name="MPN" x="-66.04" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-66.04" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F1" gate="G$1" x="48.26" y="167.64">
 <attribute name="NAME" x="44.45" y="169.037" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="164.719" size="1.778" layer="96"/>
+<attribute name="PRICE" x="48.26" y="167.64" size="1.778" layer="96"/>
+<attribute name="QTY" x="48.26" y="167.64" size="1.778" layer="96"/>
+<attribute name="SHOP" x="48.26" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F2" gate="G$1" x="48.26" y="129.54">
 <attribute name="NAME" x="44.45" y="130.937" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="126.619" size="1.778" layer="96"/>
+<attribute name="PRICE" x="48.26" y="129.54" size="1.778" layer="96"/>
+<attribute name="QTY" x="48.26" y="129.54" size="1.778" layer="96"/>
+<attribute name="SHOP" x="48.26" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F3" gate="G$1" x="48.26" y="91.44">
 <attribute name="NAME" x="44.45" y="92.837" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="88.519" size="1.778" layer="96"/>
+<attribute name="PRICE" x="48.26" y="91.44" size="1.778" layer="96"/>
+<attribute name="QTY" x="48.26" y="91.44" size="1.778" layer="96"/>
+<attribute name="SHOP" x="48.26" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="0" y="43.18">
 <attribute name="VALUE" x="-11.43" y="39.37" size="1.778" layer="96"/>
@@ -27301,6 +27596,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC1" gate="G$1" x="-38.1" y="170.18">
 <attribute name="NAME" x="-45.72" y="175.895" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="-43.18" y="172.72" size="1.778" layer="96" ratio="10"/>
+<attribute name="SHOP" x="-38.1" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-38.1" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="-63.5" y="175.26">
 <attribute name="VALUE" x="-66.04" y="170.18" size="1.778" layer="96" rot="R90"/>
@@ -27329,6 +27626,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J3" gate="G$1" x="-165.1" y="154.94">
 <attribute name="VALUE" x="-167.64" y="150.114" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-167.64" y="160.528" size="1.778" layer="95" font="vector"/>
+<attribute name="SHOP" x="-165.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-165.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="-165.1" y="88.9">
 <attribute name="VALUE" x="-167.64" y="84.074" size="1.778" layer="96" font="vector"/>
@@ -27372,29 +27671,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="F6" gate="F1" x="33.02" y="-5.08">
 <attribute name="NAME" x="34.925" y="-1.905" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="-7.874" size="1.778" layer="96" font="vector" align="top-center"/>
-<attribute name="MPN" x="33.02" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F7" gate="F1" x="33.02" y="-33.02">
 <attribute name="NAME" x="34.925" y="-29.845" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="-35.814" size="1.778" layer="96" font="vector" align="top-center"/>
-<attribute name="MPN" x="33.02" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F4" gate="F1" x="33.02" y="48.26">
 <attribute name="NAME" x="34.925" y="51.435" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="45.466" size="1.778" layer="96" font="vector" align="top-center"/>
-<attribute name="MPN" x="33.02" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F5" gate="F1" x="33.02" y="30.48">
 <attribute name="NAME" x="34.925" y="33.655" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
-<attribute name="MPN" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q8" gate="G$1" x="2.54" y="-53.34">
 <attribute name="NAME" x="7.62" y="-50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="7.62" y="-53.34" size="1.778" layer="96"/>
 </instance>
 <instance part="F8" gate="F1" x="33.02" y="-48.26">
-<attribute name="MPN" x="33.02" y="-48.26" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="34.925" y="-45.085" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="-51.054" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -27403,7 +27697,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-11.43" y="6.35" size="1.778" layer="95"/>
 </instance>
 <instance part="F9" gate="F1" x="33.02" y="12.7">
-<attribute name="MPN" x="33.02" y="12.7" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="34.925" y="15.875" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -27437,7 +27730,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="J16" gate="G$1" x="101.6" y="-27.94" rot="R180">
 <attribute name="VALUE" x="104.14" y="-23.114" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="104.14" y="-43.688" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="104.14" y="-33.528" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="J17" gate="G$1" x="101.6" y="-45.72" rot="R180">
 <attribute name="VALUE" x="104.14" y="-40.894" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -27450,39 +27743,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D1" gate="G$1" x="55.88" y="-53.34" rot="R180">
 <attribute name="NAME" x="53.34" y="-53.8226" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="53.34" y="-51.0286" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="55.88" y="-53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="50.8" y="-17.78" rot="R90">
 <attribute name="NAME" x="50.3174" y="-15.24" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="53.1114" y="-15.24" size="1.778" layer="96" rot="R270"/>
-<attribute name="MPN" x="50.8" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="73.66" y="134.62" rot="R180">
 <attribute name="NAME" x="71.12" y="134.1374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="71.12" y="136.9314" size="1.778" layer="96"/>
-<attribute name="MPN" x="73.66" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="73.66" y="116.84" rot="R180">
 <attribute name="NAME" x="71.12" y="116.3574" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="71.12" y="119.1514" size="1.778" layer="96"/>
-<attribute name="MPN" x="73.66" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D6" gate="G$1" x="76.2" y="81.28" rot="R180">
 <attribute name="NAME" x="73.66" y="80.7974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="83.5914" size="1.778" layer="96"/>
-<attribute name="MPN" x="76.2" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="30.48" y="-15.24">
 <attribute name="NAME" x="26.67" y="-11.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="-17.78" size="1.778" layer="96"/>
+<attribute name="MPN" x="30.48" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="30.48" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="30.48" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="40.64" y="-17.78">
 <attribute name="NAME" x="41.783" y="-17.2974" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.783" y="-22.3774" size="1.778" layer="96"/>
+<attribute name="MPN" x="40.64" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="40.64" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="40.64" y="-17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="-144.78" y="162.56" rot="R180">
 <attribute name="NAME" x="-140.97" y="161.0614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-140.97" y="165.862" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="-144.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PRICE" x="-144.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SHOP" x="-144.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-144.78" y="144.78" rot="R180">
 <attribute name="NAME" x="-140.97" y="143.2814" size="1.778" layer="95" rot="R180"/>
@@ -27519,10 +27816,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R13" gate="G$1" x="-147.32" y="50.8">
 <attribute name="NAME" x="-151.13" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-151.13" y="47.498" size="1.778" layer="96"/>
+<attribute name="MPN" x="-147.32" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-147.32" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-147.32" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="-147.32" y="33.02" rot="R180">
 <attribute name="NAME" x="-143.51" y="31.5214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-143.51" y="36.322" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="-147.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PRICE" x="-147.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SHOP" x="-147.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="-139.7" y="172.72">
 <attribute name="VALUE" x="-142.24" y="167.64" size="1.778" layer="96" rot="R90"/>
@@ -27534,10 +27837,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R15" gate="G$1" x="-147.32" y="43.18" rot="R180">
 <attribute name="NAME" x="-143.51" y="41.6814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-143.51" y="46.482" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="-147.32" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PRICE" x="-147.32" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SHOP" x="-147.32" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U5" gate="G$1" x="-88.9" y="-2.54">
 <attribute name="NAME" x="-93.98865" y="6.36515" size="1.78103125" layer="95"/>
 <attribute name="VALUE" x="-93.9858" y="3.817240625" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="-88.9" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-88.9" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-88.9" y="-2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="-114.3" y="-7.62">
 <attribute name="VALUE" x="-116.84" y="-12.7" size="1.778" layer="96" rot="R90"/>
@@ -27552,32 +27861,48 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J19" gate="G$1" x="-50.8" y="0" rot="R180">
 <attribute name="VALUE" x="-48.26" y="4.826" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="-48.26" y="-5.588" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="-50.8" y="0" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SHOP" x="-50.8" y="0" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="-63.5" y="167.64">
 <attribute name="NAME" x="-62.357" y="168.1226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.357" y="163.0426" size="1.778" layer="96"/>
+<attribute name="MPN" x="-63.5" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-63.5" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-63.5" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="-22.86" y="167.64">
 <attribute name="NAME" x="-21.336" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.336" y="162.941" size="1.778" layer="96"/>
-<attribute name="MPN" x="-22.86" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-22.86" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-22.86" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="-55.88" y="167.64">
-<attribute name="MPN" x="-55.88" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-54.356" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-54.356" y="162.941" size="1.778" layer="96"/>
+<attribute name="PRICE" x="-55.88" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-55.88" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="-66.04" y="2.54" rot="R90">
 <attribute name="NAME" x="-67.5386" y="-1.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-62.738" y="-1.27" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="-66.04" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PRICE" x="-66.04" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SHOP" x="-66.04" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="-99.06" y="30.48">
 <attribute name="NAME" x="-97.536" y="30.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-97.536" y="25.781" size="1.778" layer="96"/>
+<attribute name="MPN" x="-99.06" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-99.06" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-99.06" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="-91.44" y="30.48">
 <attribute name="NAME" x="-89.916" y="30.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-89.916" y="25.781" size="1.778" layer="96"/>
+<attribute name="MPN" x="-91.44" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PRICE" x="-91.44" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SHOP" x="-91.44" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="-99.06" y="172.72"/>
 </instances>

@@ -2377,20 +2377,28 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Relay SSR 50mA 1.6V DC-IN 4-Pin SOP T/R " x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay Semiconductor" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="VOM1271T" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="VOM1271T" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.62728125" y="57.95251875" size="1.2711" layer="25"/>
 <attribute name="PACKAGE" value="SOP-4 Vishay" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="1.60 USD" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="173,00р" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827" x="42.33" y="56.68" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.87985" y="52.484140625" size="1.27146875" layer="27" display="off"/>
 </element>
-<element name="U$1" library="BluePill" package="BLUE_PILL" value="" x="27.15" y="64.3"/>
+<element name="U$1" library="BluePill" package="BLUE_PILL" value="" x="27.15" y="64.3">
+<attribute name="MPN" value="Blue Pill" x="27.15" y="64.3" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="127,73р" x="27.15" y="64.3" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://ru.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-Forarduino/32342717171.html" x="27.15" y="64.3" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U2" library="VOM1271T" package="SOIC254P695X242-4N" value="VOM1271T" x="42.33" y="71.92">
 <attribute name="AVAILABILITY" value="Good" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Relay SSR 50mA 1.6V DC-IN 4-Pin SOP T/R " x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay Semiconductor" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="VOM1271T" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="VOM1271T" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.50028125" y="73.19251875" size="1.2711" layer="25"/>
 <attribute name="PACKAGE" value="SOP-4 Vishay" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="1.60 USD" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="173,00р" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827" x="42.33" y="71.92" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.87985" y="67.724140625" size="1.27146875" layer="27" display="off"/>
 </element>
 <element name="U3" library="VOM1271T" package="SOIC254P695X242-4N" value="VOM1271T" x="42.33" y="41.44">
@@ -2398,14 +2406,18 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Relay SSR 50mA 1.6V DC-IN 4-Pin SOP T/R " x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay Semiconductor" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="VOM1271T" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="VOM1271T" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.50028125" y="43.09351875" size="1.2711" layer="25"/>
 <attribute name="PACKAGE" value="SOP-4 Vishay" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="1.60 USD" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="173,00р" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1112827" x="42.33" y="41.44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.87985" y="37.244140625" size="1.27146875" layer="27" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160" x="30.9" y="62.141" rot="R180">
 <attribute name="MPN" value="RC0805FR-07160RL" x="30.9" y="62.141" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.21" y="64.008" size="1.27" layer="25" rot="R180"/>
+<attribute name="PRICE" value="0,52р" x="30.9" y="62.141" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/880371" x="30.9" y="62.141" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="30.9" y="62.141" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="32.258" y="64.389" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2422,15 +2434,24 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="33.782" y="58.293" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR" x="51.22" y="56.68" rot="R270">
+<attribute name="MPN" value="IRF7465TRPBF" x="51.22" y="56.68" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.505" y="58.077" size="1.27" layer="25"/>
+<attribute name="PRICE" value="26,30р" x="51.22" y="56.68" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651" x="51.22" y="56.68" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.315" y="52.743" size="1.27" layer="27" display="off"/>
 </element>
 <element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR" x="51.22" y="71.92" rot="R270">
+<attribute name="MPN" value="IRF7465TRPBF" x="51.22" y="71.92" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.505" y="73.317" size="1.27" layer="25"/>
+<attribute name="PRICE" value="26,30р" x="51.22" y="71.92" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651" x="51.22" y="71.92" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.315" y="67.983" size="1.27" layer="27" display="off"/>
 </element>
 <element name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7465TR" x="51.22" y="41.44" rot="R270">
+<attribute name="MPN" value="IRF7465TRPBF" x="51.22" y="41.44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.466" y="43.053" size="1.27" layer="25"/>
+<attribute name="PRICE" value="26,30р" x="51.22" y="41.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/507651" x="51.22" y="41.44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.315" y="37.503" size="1.27" layer="27" display="off"/>
 </element>
 <element name="U4" library="MC14504BDR2G" package="SOIC127P600X175-16N" value="MC14504BDR2G" x="28.868" y="25.565">
@@ -2438,233 +2459,349 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" MC14504B Series SMT Hex Level Shifter for TTL to CMOS/CMOS to CMOS - SOIC-16 " x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="MC14504BDR2G" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC14504BDR2G" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.389209375" y="27.61596875" size="2.088459375" layer="25" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="SOIC-16 ON Semiconductor" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="25,70р" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/284776" x="28.868" y="25.565" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.40873125" y="17.298359375" size="2.085740625" layer="27" ratio="10" rot="SR0" display="off"/>
 </element>
 <element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SHK20L" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A" x="49.15" y="63.665" rot="R180">
 <attribute name="MF" value="" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="FC-001S" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.96" y="60.49" size="1.778" layer="25" ratio="10" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="2,10р" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QTY" value="2" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693" x="49.15" y="63.665" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="51.817" y="63.792" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SHK20L" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A" x="49.15" y="78.778" rot="R180">
 <attribute name="MF" value="" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="FC-001S" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.96" y="75.603" size="1.778" layer="25" ratio="10" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="2,10р" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QTY" value="2" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693" x="49.15" y="78.778" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="51.817" y="78.905" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" package="SHK20L" package3d_urn="urn:adsk.eagle:package:14071/1" value="1.6A" x="49.15" y="48.425" rot="R180">
 <attribute name="MF" value="" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="FC-001S" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.96" y="45.25" size="1.778" layer="25" ratio="10" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="2,10р" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="QTY" value="2" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/2076693" x="49.15" y="48.425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="51.817" y="48.552" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="Q4" library="svetozar" package="SC75_INFINEON" value="IRLML9301TRPBF" x="60.11" y="11.341" rot="R270">
+<attribute name="MPN" value="IRLML9301TRPBF" x="60.11" y="11.341" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.189" y="11.506" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value=" 9,10р" x="60.11" y="11.341" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910" x="60.11" y="11.341" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="57.81" y="12.141" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q5" library="my" package="SC75_INFINEON" value="IRLML9301TRPBF" x="60.11" y="4.864" rot="R270">
+<attribute name="MPN" value="IRLML9301TRPBF" x="60.11" y="4.864" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.57" y="3.886" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value=" 9,10р" x="60.11" y="4.864" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910" x="60.11" y="4.864" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="57.81" y="5.664" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="svetozar" package="SOT223" package3d_urn="urn:adsk.eagle:package:4940/1" value="LM1117" x="30.138" y="7.15" rot="R180">
 <attribute name="MF" value="" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="REG1117" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LD1117S33TR" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.36" y="4.864" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="OC_FARNELL" value="1097566" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="14P6981" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="12,00р" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/208059" x="30.138" y="7.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="29.122" y="2.832" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="BLIGHT" x="11.15" y="8.51" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="8.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="9.272" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="8.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="8.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="8.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="9.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="HORN" x="11.15" y="29.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="29.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="30.369" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="29.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="29.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="29.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="30.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="BREAK" x="11.15" y="22.465" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="22.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="23.354" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="22.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="22.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="22.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="23.735" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J9" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="ABREAK" x="11.15" y="71.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="71.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="72.369" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="71.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="71.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="71.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="72.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J10" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="ATEMP" x="11.15" y="64.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="64.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="65.242" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="64.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="64.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="64.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="65.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="LHBEAM" x="11.15" y="57.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH" x="11.15" y="57.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="58.242" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="9,40р" x="11.15" y="57.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08288" x="11.15" y="57.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-08235" x="11.15" y="57.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750" x="11.15" y="57.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.446" y="58.42" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="LRTURN" x="11.15" y="46.98" rot="R270">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH" x="11.15" y="46.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="47.742" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="9,40р" x="11.15" y="46.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08288" x="11.15" y="46.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-08235" x="11.15" y="46.98" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750" x="11.15" y="46.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.446" y="47.752" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="WARNING" x="11.15" y="36.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="36.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="37.242" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="36.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="36.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="36.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="37.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF" x="38.831" y="21.374" rot="R180">
+<attribute name="MPN" value="IRF7424TRPBF" x="38.831" y="21.374" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.498" y="20.739" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value="15,40р" x="38.831" y="21.374" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875" x="38.831" y="21.374" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.894" y="23.279" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF" x="56.873" y="23.219" rot="R270">
+<attribute name="MPN" value="IRF7424TRPBF" x="56.873" y="23.219" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.809" y="19.409" size="1.27" layer="25"/>
+<attribute name="PRICE" value="15,40р" x="56.873" y="23.219" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875" x="56.873" y="23.219" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="54.968" y="19.282" size="1.27" layer="27" display="off"/>
 </element>
 <element name="F6" library="svetozar" package="PTH" value="30V4A" x="41.62" y="30.01" rot="R90">
 <attribute name="MPN" value="MF-R400" x="41.62" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.112" y="30.01" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PRICE" value="25,90р" x="41.62" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="41.62" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123" x="41.62" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.128" y="30.01" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="F7" library="svetozar" package="PTH" value="30V4A" x="45.43" y="30.01" rot="R90">
 <attribute name="MPN" value="MF-R400" x="45.43" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.922" y="30.01" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PRICE" value="25,90р" x="45.43" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="45.43" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123" x="45.43" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="45.938" y="30.01" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="F4" library="SparkFun-Fuses" package="PTH" value="30V/1.6A" x="54.395" y="9.69" rot="R180">
 <attribute name="MPN" value="30R160UU" x="54.395" y="9.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.395" y="9.182" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PRICE" value="5,40р" x="54.395" y="9.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="54.395" y="9.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513" x="54.395" y="9.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.395" y="10.198" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="F5" library="SparkFun-Fuses" package="PTH" value="30V/1.6A" x="54.395" y="2.832" rot="R180">
 <attribute name="MPN" value="30R160UU" x="54.395" y="2.832" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.395" y="2.324" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PRICE" value="5,40р" x="54.395" y="2.832" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="54.395" y="2.832" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513" x="54.395" y="2.832" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.395" y="3.34" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SO-08" package3d_urn="urn:adsk.eagle:package:29505/2" value="IRF7424TRPBF" x="55.2" y="29.282" rot="R270">
+<attribute name="MPN" value="IRF7424TRPBF" x="55.2" y="29.282" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.136" y="25.345" size="1.27" layer="25"/>
+<attribute name="PRICE" value="15,40р" x="55.2" y="29.282" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/301875" x="55.2" y="29.282" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.295" y="25.345" size="1.27" layer="27" display="off"/>
 </element>
 <element name="F8" library="svetozar" package="PTH" value="30V4A" x="49.24" y="30.01" rot="R90">
 <attribute name="MPN" value="MF-R400" x="49.24" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.732" y="30.01" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PRICE" value="25,90р" x="49.24" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="49.24" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/577123" x="49.24" y="30.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.748" y="30.01" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="Q9" library="my" package="SC75_INFINEON" value="IRLML9301TRPBF" x="60.11" y="8.547" rot="R270">
+<attribute name="MPN" value="IRLML9301TRPBF" x="60.11" y="8.547" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.443" y="7.95" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value=" 9,10р" x="60.11" y="8.547" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/575910" x="60.11" y="8.547" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="57.81" y="9.347" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="F9" library="SparkFun-Fuses" package="PTH" value="30V/1.6A" x="54.395" y="6.261" rot="R180">
 <attribute name="MPN" value="30R160UU" x="54.395" y="6.261" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.395" y="5.753" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PRICE" value="5,40р" x="54.395" y="6.261" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="RES-08490" x="54.395" y="6.261" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1040513" x="54.395" y="6.261" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.395" y="6.769" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="BATT" x="64.85" y="73" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="72.111" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="71.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="LHBEAMOUT" x="64.85" y="62.5" rot="R90">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH" x="64.85" y="62.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="61.738" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="9,40р" x="64.85" y="62.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08288" x="64.85" y="62.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-08235" x="64.85" y="62.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750" x="64.85" y="62.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.5" y="61.468" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J11" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="HORNOUT" x="64.85" y="55.5" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="55.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.31" y="54.23" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="55.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="55.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="55.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="54.23" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J12" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="12V_SUPPLY" x="64.85" y="43.51" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="43.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="42.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="43.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="43.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="43.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="42.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J13" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="STOPOUT" x="64.85" y="15.51" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="15.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.31" y="14.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="15.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="15.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="15.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="14.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J14" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="TURNOUT" x="64.85" y="5.01" rot="R90">
+<attribute name="MPN" value="DG350-3.5-03P-14-00AH" x="64.85" y="5.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.564" y="3.74" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="9,40р" x="64.85" y="5.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08288" x="64.85" y="5.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-08235" x="64.85" y="5.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1108750" x="64.85" y="5.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.453" y="3.74" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J15" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="FANOUT" x="64.85" y="22.51" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="22.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="21.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="22.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="22.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="22.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="21.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J16" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="BLIGHTOUT" x="64.85" y="29.51" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="29.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="28.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="29.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="29.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="29.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="28.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J17" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="AUXOUT" x="64.85" y="36.51" rot="R90">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="64.85" y="36.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.437" y="35.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PRICE" value="5,80р" x="64.85" y="36.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="64.85" y="36.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="64.85" y="36.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.58" y="35.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J18" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="AUX" x="11.15" y="15.465" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="15.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.563" y="16.354" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="15.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="15.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="15.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="16.735" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY" x="55" y="34.282" rot="R180">
-<attribute name="MPN" value="STTH4R02UY" x="55" y="34.282" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="STTH4R02U" x="55" y="34.282" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.08" y="36.822" size="1.27" layer="25" rot="R180"/>
+<attribute name="PRICE" value="14,10р" x="55" y="34.282" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947" x="55" y="34.282" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="57.159" y="37.711" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY" x="48.299" y="19.596">
-<attribute name="MPN" value="STTH4R02UY" x="48.299" y="19.596" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="STTH4R02U" x="48.299" y="19.596" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.092" y="20.612" size="1.27" layer="25"/>
+<attribute name="PRICE" value="14,10р" x="48.299" y="19.596" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947" x="48.299" y="19.596" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.14" y="16.167" size="1.27" layer="27" display="off"/>
 </element>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY" x="58.023" y="56.045" rot="R270">
-<attribute name="MPN" value="STTH4R02UY" x="58.023" y="56.045" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="STTH4R02U" x="58.023" y="56.045" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="54.721" y="54.902" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value="14,10р" x="58.023" y="56.045" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947" x="58.023" y="56.045" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="54.594" y="58.204" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY" x="58.15" y="71.285" rot="R90">
-<attribute name="MPN" value="STTH4R02UY" x="58.15" y="71.285" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="STTH4R02U" x="58.15" y="71.285" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="55.991" y="68.11" size="1.27" layer="25" rot="R90"/>
+<attribute name="PRICE" value="14,10р" x="58.15" y="71.285" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947" x="58.15" y="71.285" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="61.579" y="69.126" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="STTH4R02UY" x="58.15" y="40.932" rot="R90">
-<attribute name="MPN" value="STTH4R02UY" x="58.15" y="40.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="STTH4R02U" x="58.15" y="40.932" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="55.991" y="36.995" size="1.27" layer="25" rot="R90"/>
+<attribute name="PRICE" value="14,10р" x="58.15" y="40.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/450947" x="58.15" y="40.932" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="61.579" y="38.773" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="inductor-bourns" package="SDR1307" value="15uH" x="41.441" y="9.944" rot="R90">
+<attribute name="MPN" value="SDR1307-150ML" x="41.441" y="9.944" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.657" y="16.256" size="1.016" layer="25" ratio="18"/>
+<attribute name="PRICE" value="21,20р" x="41.441" y="9.944" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/607745" x="41.441" y="9.944" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.53" y="14.732" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E3,5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u" x="56.681" y="15.786" rot="R90">
+<attribute name="MPN" value="SK016M0470B3F-0811" x="56.681" y="15.786" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.617" y="12.103" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="PRICE" value="2,70р" x="56.681" y="15.786" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1262453" x="56.681" y="15.786" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="56.681" y="15.786" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.729" y="13.5" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="15.66" y="6.7" rot="R90">
+<attribute name="MPN" value="RC0805JR-071KL" x="15.66" y="6.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.39" y="6.065" size="1.27" layer="25" rot="R90" display="off"/>
+<attribute name="PRICE" value="0,19р" x="15.66" y="6.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/559515" x="15.66" y="6.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="15.66" y="6.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.946" y="7.462" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2709,12 +2846,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.2" y="12.895" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k" x="15.66" y="69.321" rot="R90">
+<attribute name="MPN" value="RC0805JR-071KL" x="15.66" y="69.321" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16.93" y="70.591" size="1.27" layer="25" rot="R270" display="off"/>
+<attribute name="PRICE" value="0,17р" x="15.66" y="69.321" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/443003" x="15.66" y="69.321" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="15.66" y="69.321" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="68.326" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.4k" x="15.66" y="60.685" rot="R90">
+<attribute name="MPN" value="RC0805FR-072K4L" x="15.66" y="60.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.39" y="59.415" size="1.27" layer="25" rot="R90" display="off"/>
+<attribute name="PRICE" value="0,15р" x="15.66" y="60.685" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/562267" x="15.66" y="60.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="15.66" y="60.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="58.42" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2724,12 +2867,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.073" y="63.098" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="15.66" y="73.385" rot="R90">
+<attribute name="MPN" value="RC0805JR-0710KL" x="15.66" y="73.385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.39" y="72.75" size="1.27" layer="25" rot="R90" display="off"/>
+<attribute name="PRICE" value="0,24р" x="15.66" y="73.385" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/339147" x="15.66" y="73.385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="15.66" y="73.385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.161" y="72.263" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U5" library="MAX3051ESA" package="SO-08" package3d_urn="urn:adsk.eagle:package:20804/2" value="MAX3051ESA+T" x="26.455" y="77.635" rot="R90">
+<attribute name="MPN" value="MAX3051ESA+T" x="26.455" y="77.635" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.76646875" y="74.20046875" size="1.272759375" layer="25" rot="R90"/>
+<attribute name="PRICE" value="141,00р" x="26.455" y="77.635" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/462120" x="26.455" y="77.635" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.53781875" y="75.093590625" size="1.2707" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u" x="31.535" y="78.27" rot="R270">
@@ -2738,39 +2887,58 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.551" y="79.921" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J19" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="CAN" x="11.15" y="78.48" rot="R270">
+<attribute name="MPN" value="DG350-3.5-02P-14-00AH" x="11.15" y="78.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.69" y="79.75" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PRICE" value="5,80р" x="11.15" y="78.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-08399" x="11.15" y="78.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1115132" x="11.15" y="78.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.42" y="79.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E3,5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u" x="23.534" y="14.643" rot="R90">
+<attribute name="MPN" value="SK016M0470B3F-0811" x="23.534" y="14.643" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.105" y="10.071" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="PRICE" value="2,70р" x="23.534" y="14.643" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1262453" x="23.534" y="14.643" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="23.534" y="14.643" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.582" y="12.357" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47u6V" x="30.9" y="13.754">
-<attribute name="MPN" value="   CL31A476MQHNNNE" x="30.9" y="13.754" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL31A476MQHNNNE" x="30.9" y="13.754" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.757" y="11.341" size="1.27" layer="25"/>
+<attribute name="PRICE" value="7,70р" x="30.9" y="13.754" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/882710" x="30.9" y="13.754" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="30.9" y="13.754" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.17" y="11.214" size="1.27" layer="27" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22u16V" x="30.9" y="16.04">
-<attribute name="MPN" value="CL32A226KOJNNNE" x="30.9" y="16.04" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL31A226KOHNNNE" x="30.9" y="16.04" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.63" y="17.31" size="1.27" layer="25"/>
+<attribute name="PRICE" value="12,80р" x="30.9" y="16.04" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/1641407" x="30.9" y="16.04" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="30.9" y="16.04" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.63" y="13.5" size="1.27" layer="27" display="off"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120" x="15.66" y="77.538" rot="R270">
+<attribute name="MPN" value="RC0805FR-07120RL" x="15.66" y="77.538" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.93" y="78.173" size="1.27" layer="25" rot="R90" display="off"/>
+<attribute name="PRICE" value="0,23р" x="15.66" y="77.538" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/542987" x="15.66" y="77.538" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="15.66" y="77.538" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.161" y="76.073" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u" x="34.798" y="27.686" rot="R270">
+<attribute name="MPN" value="CC1206KRX7R8BB104" x="34.798" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.068" y="28.956" size="1.27" layer="25" rot="R270"/>
+<attribute name="PRICE" value="2,20р" x="34.798" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/540763" x="34.798" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="34.798" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.29" y="26.162" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u" x="19.685" y="29.21">
+<attribute name="MPN" value="CC0805KRX7R9BB104" x="19.685" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.415" y="30.48" size="1.27" layer="25"/>
+<attribute name="PRICE" value="2,00р" x="19.685" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="SHOP" value="https://www.terraelectronica.ru/product/251110" x="19.685" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="19.685" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="18.415" y="26.67" size="1.27" layer="27"/>
 </element>
