@@ -1,5 +1,7 @@
 # Mac Os
 .DS_Store
+firmware/cmake-build-debug
+*.bin
 
 # my
 bom.csv
