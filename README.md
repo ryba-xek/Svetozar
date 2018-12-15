@@ -8,7 +8,7 @@ _Current project status_: in active development. Some features work, some don't.
 
 <img src="device.jpg" width="400" height="429" alt="device board">
 
-This device allows you to control headlights/turn signals/horn/fan/etc on a typical e-bike/e-scooter.
+This ~30$ device allows you to control headlights/turn signals/horn/fan/etc on a typical e-bike/e-scooter.
 Based on a STM32F103 [Blue pill board](https://wiki.stm32duino.com/index.php?title=Blue_Pill).
 It consists of a ‘Blue pill’ board with STM32F103 microcontroller which is widely available
 on eBay or [Aliexpress](https://www.aliexpress.com/af/STM32F103C8T6.html?site=glo&origin=n&spm=2114.search0604.0.0.7f4960689ztJHF&filterCat=400103%2C200215223%2C200084026&jump=afs&groupsort=1&SearchText=STM32F103C8T6&SortType=price_asc&initiative_id=SB_20181031001708)
@@ -31,9 +31,13 @@ one accepts 0 to 5V voltage, the other should be used with KTY84/130 temperature
 - AUX triggers AUX output
 - BLGHT triggers BLGHT output
 
-## Firmware
+## Hardware requirements
 
-### Requirements
+* Blue pill board
+* Main board with all the components soldered ([BOM](bom.pdf))
+* ST-Link/V2 or V2-1 programmer (V1 is supported via native ST software under Windows)
+
+## Firmware requirements
 
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * Arduino SAM boards (Cortex-M3) support installed from Ardiuno IDE's boards manager
@@ -50,9 +54,6 @@ one accepts 0 to 5V voltage, the other should be used with KTY84/130 temperature
 * libusb (brew reinstall libusb)
 * pyusb (pip3 install pyusb)
 * [pystlink](https://github.com/pavelrevak/pystlink)
-
-##### Hardware
-* ST-Link/V2 or V2-1 programmer (pystlink does not support V1, please use native ST software under Windows)
 
 #### Process
 1. Download [STM32duino bootloader](https://github.com/rogerclarkmelbourne/STM32duino-bootloader/raw/master/binaries/generic_boot20_pc13.bin)

@@ -42,7 +42,7 @@ void BoardSetup(void (*callback)(void)) {
     pinMode(HORN_OUT_PIN,   OUTPUT);
     
     digitalWrite(LED_OUT_PIN,    HIGH);  // LED off
-    digitalWrite(CAN_SHDN_PIN,   !CAN_BUS_ENABLED);  // Shutdown enabled
+    digitalWrite(CAN_SHDN_PIN,   !CAN_BUS_ENABLED);
     digitalWrite(LTURN_OUT_PIN,  HIGH);  // off
     digitalWrite(RTURN_OUT_PIN,  HIGH);  // off
     digitalWrite(HBEAM_OUT_PIN,  LOW);  // off
@@ -51,14 +51,14 @@ void BoardSetup(void (*callback)(void)) {
     
     // PWM outputs
     pinMode(STOP_OUT_PIN,   PWM);
-    pinMode(BLIGHT_OUT_PIN, PWM);
+    pinMode(BLIGHT_OUT_PIN, INPUT_PULLUP); //pinMode(BLIGHT_OUT_PIN, PWM);
     pinMode(FAN_OUT_PIN,    PWM);
     pinMode(AUX_OUT_PIN,    PWM);
 
     htimer2.setPrescaleFactor(1);
     htimer3.setPrescaleFactor(1);
     htimer4.setPrescaleFactor(1);
-    htimer2.setOverflow(2047);
+    htimer2.setOverflow(2047); //32768-1
     htimer3.setOverflow(2047);
     htimer4.setOverflow(2047);
 
@@ -68,15 +68,15 @@ void BoardSetup(void (*callback)(void)) {
     setPolarity(AUX_OUT_PIN,    HIGH);
 
     pwmWrite(STOP_OUT_PIN,   STOP_HALF_VALUE);
-    pwmWrite(BLIGHT_OUT_PIN, 0);
-    pwmWrite(FAN_OUT_PIN,    FAN_OFF_VALUE);
+    //pwmWrite(BLIGHT_OUT_PIN, 0);
+    pwmWrite(FAN_OUT_PIN,    0);
     pwmWrite(AUX_OUT_PIN,    0);
-
 
     // Special functions
     pinMode(CAN_RX_PIN,    INPUT);
     pinMode(CAN_TX_PIN,    OUTPUT);
     adc_set_prescaler(ADC_PRE_PCLK2_DIV_2);
+    //Serial3.begin(115200);
 
     // External interrupts
     attachInterrupt(BLIGHT_IN_PIN, callback, CHANGE);
@@ -87,16 +87,18 @@ void BoardSetup(void (*callback)(void)) {
     attachInterrupt(WARN_IN_PIN,   callback, CHANGE);
     attachInterrupt(HORN_IN_PIN,   callback, CHANGE);
     attachInterrupt(BREAK_IN_PIN,  callback, CHANGE);
-    attachInterrupt(AUX_IN_PIN,    callback, CHANGE);
+    #if BOARD_VER != BOARD_VER_1_1
+        attachInterrupt(AUX_IN_PIN,    callback, CHANGE);
+    #endif
 
     // Clocks & system timer
     systick_init(SYSTICK); // 50 ms
-    
-    if (!USE_ANALOG_STOP) {
-        rcc_clk_disable(RCC_ADC1);
-    }
-    rcc_clk_disable(RCC_ADC2);
-    rcc_clk_disable(RCC_ADC3);
+
+    #if USE_ANALOG_STOP
+//        rcc_clk_disable(RCC_ADC1);
+    #endif
+//    rcc_clk_disable(RCC_ADC2);
+//    rcc_clk_disable(RCC_ADC3);
 //    rcc_clk_disable(RCC_AFIO);
 //    rcc_clk_disable(RCC_BKP);
 //    rcc_clk_disable(RCC_CRC);
@@ -122,10 +124,12 @@ void BoardSetup(void (*callback)(void)) {
 //    rcc_clk_disable(RCC_TIMER12);
 //    rcc_clk_disable(RCC_TIMER13);
 //    rcc_clk_disable(RCC_TIMER14);
-    rcc_clk_disable(RCC_USART1);
-    rcc_clk_disable(RCC_USART2);
-    rcc_clk_disable(RCC_USART3);
+//    rcc_clk_disable(RCC_USART1);
+//    rcc_clk_disable(RCC_USART2);
+//    rcc_clk_disable(RCC_USART3);
 //    rcc_clk_disable(RCC_UART4);
 //    rcc_clk_disable(RCC_UART5);
-    rcc_clk_disable(CAN_BUS_ENABLED ? RCC_USB : RCC_CAN);
+    if (CAN_BUS_ENABLED) {
+        rcc_clk_disable(RCC_CAN);
+    }
 }

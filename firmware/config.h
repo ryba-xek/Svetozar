@@ -2,6 +2,10 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+#define BOARD_VER_1_1            101
+#define BOARD_VER_1_2            102
+
+#define BOARD_VER                BOARD_VER_1_1
 #define CAN_BUS_ENABLED          false
 #define SYSTICK                  F_CPU/20 - 1  // 50 ms
 
@@ -18,7 +22,13 @@
 
 #define BLIGHT_ON_VALUE          2048  // 0..2048
 
-#define FAN_OFF_VALUE            0     // full-off state, max 2048
-#define FAN_ON_VALUE             250   // full-on state, max 2048, around 23437 Hz
+#define FAN_MIN_VALUE            4000     // min PWM for motor to start from standstill, max 2048
+#define FAN_MAX_VALUE            2047   // full-on state, max 2048
 
+#define MOTOR_TRIGGER_TEMP       60
+#define MOTOR_MAX_TEMP           100
+
+#define CAN_BREAK_MSGID          0x1b0
+#define CAN_MOTOR_TEMP_MSGID     0x5b0
+#define CAN_MOTOR_TEMP_REQ_MSGID 0x630
 #endif //CONFIG_H

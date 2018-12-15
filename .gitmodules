@@ -1,3 +1,6 @@
 [submodule "lib/STM32Bluepill_eagle"]
 	path = lib/STM32Bluepill_eagle
 	url = https://github.com/sagarHackeD/STM32Bluepill_eagle.git
+[submodule "firmware/arduino-cmake-stm32"]
+	path = firmware/arduino-cmake-stm32
+	url = git://github.com/mean00/arduino-cmake-stm32.git
