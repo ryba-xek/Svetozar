@@ -6,30 +6,33 @@ _Current project status_: in active development. Some features work, some don't.
 
 ## In a nutshell:
 
-<img src="device.jpg" width="400" height="429" alt="device board">
+<img src="device.png" width="400" height="429" alt="device board">
 
 This ~30$ device allows you to control headlights/turn signals/horn/fan/etc on a typical e-bike/e-scooter.
-Based on a STM32F103 [Blue pill board](https://wiki.stm32duino.com/index.php?title=Blue_Pill).
-It consists of a ‘Blue pill’ board with STM32F103 microcontroller which is widely available
-on eBay or [Aliexpress](https://www.aliexpress.com/af/STM32F103C8T6.html?site=glo&origin=n&spm=2114.search0604.0.0.7f4960689ztJHF&filterCat=400103%2C200215223%2C200084026&jump=afs&groupsort=1&SearchText=STM32F103C8T6&SortType=price_asc&initiative_id=SB_20181031001708)
-and a custom-built board with high-voltage circuitry. (e.g. you can order this board at [jlcpcb.com](https://jlcpcb.com/) for around 11$/10 pcs delivered.)
 
-Device requires an external 12V power source and is able to switch 6x 12V outputs plus 3x 12..150V outputs
-(which have a separate 12..150V power input). One of the 12V outputs is intended to drive a high-current fan and generates a stabilized 0..12V current
+It consists of a [‘Blue pill’](https://wiki.stm32duino.com/index.php?title=Blue_Pill) board with STM32F103 microcontroller which is widely available
+on eBay or [Aliexpress](https://www.aliexpress.com/af/STM32F103C8T6.html?site=glo&origin=n&spm=2114.search0604.0.0.7f4960689ztJHF&filterCat=400103%2C200215223%2C200084026&jump=afs&groupsort=1&SearchText=STM32F103C8T6&SortType=price_asc&initiative_id=SB_20181031001708)
+and a custom board with high-voltage circuitry. (You can order this board at [jlcpcb.com](https://jlcpcb.com/) for around 11$/10 pcs delivered.)
+
+An external 12V power source is required. The device is able to switch 6x 12V outputs plus 3x 12..100V outputs
+(12..100V nets are optically isolated). One of the 12V outputs is intended to drive a high-current fan and generates a stabilized 0..12V current
 for a smooth fan speed control. CAN bus is also supported, so you can write some code to interact with other CAN devices.
-There are 9x digital inputs on the left side which trigger when connected to ground and two analog inputs —
-one accepts 0 to 5V voltage, the other should be used with KTY84/130 temperature sensor (or NTC10k, but you'll have to change input resistors to match the sensor).
+There are 11 inputs on the left side, most of them are digital and trigger when connected to ground. ABRK input is analog and accepts voltages up to 5V,
+ATEMP input should be used with KTY84/130 temperature sensor (or NTC10k, but you'll have to change input resistors to match the sensor).
 
 ## Current functions:
 
-- Stoplight has medium brightness when no stop input is triggered 
-- ABRK & BRK trigger stoplight to full brightness with a starting blink
-- LEFT, RGHT, WARN trigger (left/right/both) turn signals flash with ~1 Hz frequency
+- Stoplight has medium brightness when not triggered
+- ABRK & DBRK trigger stoplight to full brightness with a starting blink
+- LTURN, RTURN, WARN trigger (left/right/both) turn signals flash with ~1 Hz frequency
 - LBEAM triggers LBEAM output
 - HBEAM triggers both LBEAM & HBEAM outputs
 - HORN triggers HORN output
 - AUX triggers AUX output
 - BLGHT triggers BLGHT output
+- ATEMP can be programmed to smoothly control FAN output
+- 12V net triggers current protection at ~25A peak, this disables all 12V outputs 
+- BATT+ net triggers current protection at ~12A peak, this disables all 12..100V outputs
 
 ## Hardware requirements
 

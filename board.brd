@@ -2577,23 +2577,29 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="31.242" y="52.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T" x="49.276" y="75.311" smashed="yes">
+<attribute name="MPN" value="PHP20NQ20T.127" x="49.276" y="75.311" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.975" y="72.39" size="1" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T" x="49.276" y="68.961" smashed="yes">
+<attribute name="MPN" value="PHP20NQ20T.127" x="49.276" y="68.961" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.975" y="66.04" size="1" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T" x="49.276" y="62.611" smashed="yes">
+<attribute name="MPN" value="PHP20NQ20T.127" x="49.276" y="62.611" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.975" y="59.69" size="1" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D" x="55.626" y="72.263" smashed="yes" rot="MR270">
+<attribute name="MPN" value="ES1D" x="55.626" y="72.263" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="53.975" y="73.025" size="0.8" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="59.055" y="74.422" size="0.8" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D" x="55.626" y="65.913" smashed="yes" rot="MR270">
+<attribute name="MPN" value="ES1D" x="55.626" y="65.913" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="53.975" y="66.675" size="0.8" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="59.055" y="68.072" size="0.8" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D" x="55.626" y="59.563" smashed="yes" rot="MR270">
+<attribute name="MPN" value="ES1D" x="55.626" y="59.563" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="53.975" y="60.325" size="0.8" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="59.055" y="61.722" size="0.8" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
@@ -2699,9 +2705,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="45.989" y="15.731" size="0.8" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D" x="43.561" y="6.731" smashed="yes" rot="MR270">
+<attribute name="MPN" value="ES1D" x="43.561" y="6.731" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.91" y="7.62" size="0.8" layer="26" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D" x="56.007" y="12.065" smashed="yes" rot="MR270">
+<attribute name="MPN" value="ES1D" x="56.007" y="12.065" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="54.61" y="12.7" size="0.8" layer="26" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="DPACK" package3d_urn="urn:adsk.eagle:package:30369/1" value="LD1117V33" x="40.64" y="32.766" smashed="yes" rot="R180">

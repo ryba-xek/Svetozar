@@ -25603,12 +25603,24 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T"/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T"/>
-<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D"/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T">
+<attribute name="MPN" value="PHP20NQ20T.127"/>
+</part>
+<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T">
+<attribute name="MPN" value="PHP20NQ20T.127"/>
+</part>
+<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T">
+<attribute name="MPN" value="PHP20NQ20T.127"/>
+</part>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D">
+<attribute name="MPN" value="ES1D"/>
+</part>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D">
+<attribute name="MPN" value="ES1D"/>
+</part>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D">
+<attribute name="MPN" value="ES1D"/>
+</part>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -25680,8 +25692,12 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="L1" library="inductor-bourns" deviceset="SRP1040" device="" value="SRP1040-150M">
 <attribute name="MPN" value="SRP1040-150M"/>
 </part>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D">
+<attribute name="MPN" value="ES1D"/>
+</part>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="ES1D">
+<attribute name="MPN" value="ES1D"/>
+</part>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="DT" package3d_urn="urn:adsk.eagle:package:30369/1" technology="33TR" value="LD1117V33">
 <attribute name="MPN" value="NCP1117DT33G"/>
 </part>
@@ -25704,6 +25720,10 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <sheet>
 <plain>
 <text x="-71.12" y="-134.62" size="5.08" layer="97">https://github.com/ryba-xek/Svetozar</text>
+<text x="-20.32" y="-12.446" size="1.778" layer="97" align="top-left">Temp input is for
+KTY84/130 sensor,
+change R12 for others.</text>
+<wire x1="-21.336" y1="-16.002" x2="-39.116" y2="-16.002" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="38.1" y="27.94" smashed="yes"/>
@@ -25930,24 +25950,30 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </instance>
 <instance part="Q1" gate="G$1" x="157.48" y="76.2" smashed="yes">
 <attribute name="NAME" x="162.56" y="76.2" size="1.778" layer="95" font="vector"/>
+<attribute name="MPN" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="157.48" y="40.64" smashed="yes">
 <attribute name="NAME" x="162.56" y="40.64" size="1.778" layer="95" font="vector"/>
+<attribute name="MPN" x="157.48" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="157.48" y="5.08" smashed="yes">
 <attribute name="NAME" x="162.56" y="5.08" size="1.778" layer="95" font="vector"/>
+<attribute name="MPN" x="157.48" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="162.56" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.0426" y="55.88" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="160.2486" y="55.88" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="162.56" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="162.56" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.0426" y="20.32" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="160.2486" y="20.32" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="162.56" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="162.56" y="-12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.0426" y="-15.24" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="160.2486" y="-15.24" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="162.56" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="132.08" y="99.06" smashed="yes">
 <attribute name="NAME" x="133.604" y="99.441" size="1.778" layer="95"/>
@@ -26052,10 +26078,12 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <instance part="D4" gate="G$1" x="152.4" y="-106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="-102.0826" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="154.94" y="-111.9886" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="152.4" y="-106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="170.18" y="-142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.64" y="-142.7226" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="167.64" y="-145.0086" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="170.18" y="-142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="27.94" y="101.6" smashed="yes">
 <attribute name="NAME" x="20.32" y="107.315" size="1.778" layer="95" ratio="10"/>
@@ -27220,6 +27248,10 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
