@@ -25651,13 +25651,13 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="MPN" value="VOM1271T"/>
 </part>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
-<attribute name="MPN" value="RC0805FR-07160RL"/>
+<attribute name="MPN" value="RC0603FR-07160RL"/>
 </part>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
-<attribute name="MPN" value="RC0805FR-07160RL"/>
+<attribute name="MPN" value="RC0603FR-07160RL"/>
 </part>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
-<attribute name="MPN" value="RC0805FR-07160RL"/>
+<attribute name="MPN" value="RC0603FR-07160RL"/>
 </part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T">
