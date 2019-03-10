@@ -25492,7 +25492,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </classes>
 <parts>
 <part name="U$1" library="svetozar" deviceset="BLUE_PILL" device=""/>
-<part name="U1" library="MC14504BDR2G" deviceset="MC14504BDR2G" device=""/>
+<part name="U1" library="MC14504BDR2G" deviceset="MC14504BDR2G" device="">
+<attribute name="MPN" value="MC14504BDR2G"/>
+</part>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM" value="BLIGHT">
 <attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
 </part>
@@ -25522,18 +25524,43 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3K"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.4K"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3K">
+<attribute name="MPN" value="RC0603JR-073KL"/>
+</part>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="MPN" value="RC0603JR-071KL  "/>
+</part>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.4K">
+<attribute name="MPN" value="RC0603FR-072K4L"/>
+</part>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL 
+"/>
+</part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -25543,14 +25570,30 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </spice>
 <attribute name="MPN" value="CC0805KRX7R9BB104"/>
 </part>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
-<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120">
+<attribute name="MPN" value="RC0603FR-07120RL"/>
+</part>
+<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1">
+<attribute name="MPN" value="PLS-2"/>
+</part>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
+<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
+</part>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -25572,7 +25615,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </spice>
 <attribute name="MPN" value="CC1206KRX7R8BB104"/>
 </part>
-<part name="U2" library="MAX3051ESA" deviceset="MAX3051ESA" device="+T" package3d_urn="urn:adsk.eagle:package:20804/2"/>
+<part name="U2" library="MAX3051ESA" deviceset="MAX3051ESA" device="+T" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="MAX3051ESA+T"/>
+</part>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -25596,12 +25641,24 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="U6" library="svetozar" deviceset="ACS711" device="" value="ACS711KLCTR-12AB-T">
 <attribute name="MPN" value="ACS711KLCTR-12AB-T"/>
 </part>
-<part name="U3" library="VOM1271T" deviceset="VOM1271T" device=""/>
-<part name="U4" library="VOM1271T" deviceset="VOM1271T" device=""/>
-<part name="U5" library="VOM1271T" deviceset="VOM1271T" device=""/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
+<part name="U3" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+</part>
+<part name="U4" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+</part>
+<part name="U5" library="VOM1271T" deviceset="VOM1271T" device="">
+<attribute name="MPN" value="VOM1271T"/>
+</part>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
+<attribute name="MPN" value="RC0805FR-07160RL"/>
+</part>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
+<attribute name="MPN" value="RC0805FR-07160RL"/>
+</part>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="160">
+<attribute name="MPN" value="RC0805FR-07160RL"/>
+</part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="PHP20NQ20T">
 <attribute name="MPN" value="PHP20NQ20T.127"/>
@@ -25682,13 +25739,33 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="MPN" value="DG350-3.5-02P-14-00AH"/>
 </part>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="Q5" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="Q9" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u"/>
+<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="Q5" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="Q9" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET-SO8" device="" package3d_urn="urn:adsk.eagle:package:20804/2">
+<attribute name="MPN" value="IRF7424TRPBF"/>
+</part>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="470u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="SK016M0470B3F-0811"/>
+</part>
 <part name="L1" library="inductor-bourns" deviceset="SRP1040" device="" value="SRP1040-150M">
 <attribute name="MPN" value="SRP1040-150M"/>
 </part>
@@ -25704,17 +25781,47 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="220u"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="220u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="SK016M0220BZF-0611"/>
+</part>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22u"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47u"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
-<part name="J19" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22u 16V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="CL31A226KOHNNNE"/>
+</part>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="CL31A476MQHNNNE"/>
+</part>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1">
+<attribute name="MPN" value="KPT-2012ZGC"/>
+</part>
+<part name="J19" library="SparkFun-Connectors" deviceset="CONN_01" device="">
+<attribute name="MPN" value="PLS-1"/>
+</part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J20" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="J20" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND">
+<attribute name="MPN" value="PLS-3"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25730,6 +25837,7 @@ change R12 for others.</text>
 <instance part="U1" gate="A" x="101.6" y="-76.2" smashed="yes">
 <attribute name="NAME" x="98.76048125" y="-56.8395" size="2.09061875" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="89.470040625" y="-102.4779" size="2.08935" layer="96" ratio="10" rot="SR0"/>
+<attribute name="MPN" x="101.6" y="-76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="-66.04" y="88.9" smashed="yes">
 <attribute name="VALUE" x="-68.58" y="84.074" size="1.778" layer="96" font="vector"/>
@@ -25785,50 +25893,62 @@ change R12 for others.</text>
 <instance part="R1" gate="G$1" x="-45.72" y="96.52" smashed="yes">
 <attribute name="NAME" x="-45.72" y="98.044" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="94.996" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="-45.72" y="76.2" smashed="yes">
 <attribute name="NAME" x="-45.72" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="74.676" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="-45.72" y="86.36" smashed="yes">
 <attribute name="NAME" x="-45.72" y="87.884" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="84.836" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-45.72" y="58.42" smashed="yes">
 <attribute name="NAME" x="-45.72" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="-45.72" y="66.04" smashed="yes">
 <attribute name="NAME" x="-45.72" y="67.564" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="64.516" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="-45.72" y="43.18" smashed="yes">
 <attribute name="NAME" x="-45.72" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="41.656" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="-45.72" y="30.48" smashed="yes">
 <attribute name="NAME" x="-45.72" y="32.004" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="28.956" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="-48.26" y="7.62" smashed="yes">
 <attribute name="NAME" x="-48.26" y="9.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-48.26" y="6.096" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-48.26" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="-45.72" y="20.32" smashed="yes">
 <attribute name="NAME" x="-45.72" y="21.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="18.796" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="-45.72" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-45.72" y="-6.096" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="-9.144" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="-45.72" y="-17.78" smashed="yes">
 <attribute name="NAME" x="-45.72" y="-16.256" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="-19.304" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-45.72" y="-17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="-48.26" y="0" smashed="yes">
 <attribute name="NAME" x="-48.26" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-48.26" y="-1.524" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-48.26" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="-48.26" y="-27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="-47.879" y="-29.464" size="1.778" layer="95" rot="R270"/>
@@ -25838,34 +25958,42 @@ change R12 for others.</text>
 <instance part="R13" gate="G$1" x="-40.64" y="-33.02" smashed="yes">
 <attribute name="NAME" x="-40.64" y="-31.496" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-40.64" y="-34.544" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="-40.64" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP2" gate="A" x="-30.48" y="-33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-30.48" y="-31.75" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-30.48" y="-38.735" size="1.778" layer="96"/>
+<attribute name="MPN" x="-30.48" y="-33.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="27.94" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.416" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="29.464" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="27.94" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="35.56" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.036" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="37.084" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="35.56" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="43.18" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="44.704" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="43.18" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="50.8" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.276" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="52.324" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="50.8" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="58.42" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.896" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="59.944" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="58.42" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="66.04" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.516" y="-63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="67.564" y="-63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="MPN" x="66.04" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="78.74" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="81.28" y="-48.26" size="1.778" layer="96" rot="R90"/>
@@ -25889,6 +26017,7 @@ change R12 for others.</text>
 <instance part="U2" gate="G$1" x="-15.24" y="-58.42" smashed="yes">
 <attribute name="NAME" x="-20.32935" y="-49.51363125" size="1.78128125" layer="95"/>
 <attribute name="VALUE" x="-20.33068125" y="-52.056659375" size="1.781740625" layer="96"/>
+<attribute name="MPN" x="-15.24" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="-40.64" y="-68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="-42.164" y="-68.961" size="1.778" layer="95" rot="R180"/>
@@ -25924,26 +26053,32 @@ change R12 for others.</text>
 <instance part="U3" gate="G$1" x="129.54" y="63.5" smashed="yes">
 <attribute name="NAME" x="114.29705" y="79.7749" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="132.077109375" y="45.6997" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="129.54" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="129.54" y="27.94" smashed="yes">
 <attribute name="NAME" x="114.29705" y="44.2149" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="132.077109375" y="10.1397" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="129.54" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U5" gate="G$1" x="129.54" y="-7.62" smashed="yes">
 <attribute name="NAME" x="114.29705" y="8.6549" size="1.780059375" layer="95"/>
 <attribute name="VALUE" x="132.077109375" y="-25.4203" size="1.78003125" layer="96"/>
+<attribute name="MPN" x="129.54" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="101.6" y="73.66" smashed="yes">
 <attribute name="NAME" x="101.6" y="75.184" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="101.6" y="72.136" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="101.6" y="38.1" smashed="yes">
 <attribute name="NAME" x="101.6" y="39.624" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="101.6" y="36.576" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="101.6" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="101.6" y="2.54" smashed="yes">
 <attribute name="NAME" x="101.6" y="4.064" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="101.6" y="1.016" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="MPN" x="101.6" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="106.68" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="104.775" y="-28.575" size="1.778" layer="96"/>
@@ -26045,30 +26180,37 @@ change R12 for others.</text>
 <instance part="Q4" gate="G$1" x="137.16" y="-66.04" smashed="yes">
 <attribute name="NAME" x="142.24" y="-63.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-66.04" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="137.16" y="-78.74" smashed="yes">
 <attribute name="NAME" x="142.24" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-78.74" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="137.16" y="-91.44" smashed="yes">
 <attribute name="NAME" x="142.24" y="-88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-91.44" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q7" gate="G$1" x="137.16" y="-104.14" smashed="yes">
 <attribute name="NAME" x="142.24" y="-101.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-104.14" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q8" gate="G$1" x="137.16" y="-121.92" smashed="yes">
 <attribute name="NAME" x="142.24" y="-119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-121.92" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="137.16" y="-134.62" smashed="yes">
 <attribute name="NAME" x="142.24" y="-132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="-134.62" size="1.778" layer="96"/>
+<attribute name="MPN" x="137.16" y="-134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="172.72" y="-106.68" smashed="yes">
 <attribute name="NAME" x="173.863" y="-106.1974" size="1.778" layer="95"/>
 <attribute name="VALUE" x="173.863" y="-111.2774" size="1.778" layer="96"/>
+<attribute name="MPN" x="172.72" y="-106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="162.56" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.37" y="-107.95" size="1.778" layer="95" rot="R180"/>
@@ -26102,23 +26244,28 @@ change R12 for others.</text>
 <instance part="C10" gate="G$1" x="0" y="99.06" smashed="yes">
 <attribute name="NAME" x="-6.477" y="99.5426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.477" y="94.4626" size="1.778" layer="96"/>
+<attribute name="MPN" x="0" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="-7.62" y="81.28" smashed="yes"/>
 <instance part="C11" gate="G$1" x="7.62" y="99.06" smashed="yes">
 <attribute name="NAME" x="9.144" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="9.144" y="94.361" size="1.778" layer="96"/>
+<attribute name="MPN" x="7.62" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="48.26" y="99.06" smashed="yes">
 <attribute name="NAME" x="49.784" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.784" y="94.361" size="1.778" layer="96"/>
+<attribute name="MPN" x="48.26" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="73.66" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.104" y="57.912" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="67.945" y="57.912" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="73.66" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J19" gate="G$1" x="88.9" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="91.44" y="55.626" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="91.44" y="47.752" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="88.9" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="81.28" y="55.88" smashed="yes">
 <attribute name="VALUE" x="79.375" y="52.705" size="1.778" layer="96"/>
@@ -26133,8 +26280,9 @@ change R12 for others.</text>
 <attribute name="VALUE" x="14.859" y="-8.763" size="1.778" layer="96"/>
 </instance>
 <instance part="J20" gate="J$1" x="-30.48" y="12.7" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-27.94" y="20.066" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-26.416" y="21.336" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="-27.94" y="7.112" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="-30.48" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
