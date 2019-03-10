@@ -4,12 +4,12 @@
         "name": "Lol Lol"
     },
     "description": {
-        "EN": "JLCPCB.com 2 layer CAM job."
+        "EN": "EAGLE default 2 layer CAM job."
     },
     "output_type": "zip",
     "outputs": [
         {
-            "filename_prefix": "",
+            "filename_prefix": "CAMOutputs/DrillFiles",
             "format_specifier": {
                 "decimal": 3,
                 "integer": 3
@@ -33,12 +33,12 @@
             ]
         },
         {
-            "filename_prefix": "",
+            "filename_prefix": "CAMOutputs/GerberFiles",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
             },
-            "generate_job_file": false,
+            "generate_job_file": true,
             "output_type": "gerber",
             "outputs": [
                 {
@@ -102,7 +102,7 @@
                         29
                     ],
                     "name": "Soldermask Top",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -117,7 +117,7 @@
                         30
                     ],
                     "name": "Soldermask Bottom",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -160,8 +160,7 @@
                     "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
                         21,
-                        25,
-                        27
+                        25
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -184,21 +183,6 @@
                     "name": "Silkscreen Bottom",
                     "polarity": "positive",
                     "type": "gerber_layer"
-                },
-                {
-                    "board_outline": false,
-                    "config": {
-                        "description": "Vias",
-                        "file_function": "Other"
-                    },
-                    "filename_format": "%PREFIX/vias.gbr",
-                    "layers": [
-                        18
-                    ],
-                    "milling": false,
-                    "name": "Vias",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
                 }
             ],
             "version": "RS274X"
@@ -210,7 +194,7 @@
             ]
         }
     ],
-    "timestamp": "2018-10-06T18:27:52",
+    "timestamp": "2019-02-25T12:30:11",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
