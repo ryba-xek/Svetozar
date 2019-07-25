@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25558,8 +25558,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="MPN" value="RC0603FR-072K4L"/>
 </part>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K">
-<attribute name="MPN" value="RC0603JR-0710KL 
-"/>
+<attribute name="MPN" value="RC0603JR-0710KL  "/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u">
 <spice>

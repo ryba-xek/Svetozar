@@ -12,8 +12,8 @@
  *              Right turn in - | PB15      RESET | -
  *                 Warning in - | PA8        PB11 | - Backlight in
  *                    Horn in - | PA9        PB10 | - USART TX3 & LED
- * TIM1_CH3     Stoplight out - | PA10        PB1 | - High beam out           TIM3_CH4
- *                       USB- - | PA11        PB0 | - Low beam out            TIM3_CH3
+ * TIM1_CH3     Stoplight out - | PA10        PB1 | - Low beam out            TIM3_CH4
+ *                       USB- - | PA11        PB0 | - High beam out           TIM3_CH3
  *                       USB+ - | PA12        PA7 | - Horn out                TIM3_CH2
  *                ACS711LC V+ - | PA15        PA6 | - Analog temp sensor in
  *             Overcurrent in - | PB3         PA5 | - A/D break in
@@ -62,30 +62,30 @@
 #define RTURN_IN_PIN    PB15
 #define WARN_IN_PIN     PA8
 #define HORN_IN_PIN     PA9
-#define BREAK_IN_PIN    PA10
-#if BOARD_VER == BOARD_VER_1_1
-    #define AUX_IN_PIN      PA15
-#else
-    #define AUX_IN_PIN      PB4
-#endif
+#define STOP_OUT_PIN    PA10
+#define CSSUPPLY_PIN    PA15
+#define CSFAULT_IN_PIN  PB3
+#define AUX_IN_PIN      PB4
 #define CAN_SHDN_PIN    PB5
 #define RTURN_OUT_PIN   PB6
 #define LTURN_OUT_PIN   PB7
 #define CAN_RX_PIN      PB8
 #define CAN_TX_PIN      PB9
 
-#define HBEAM_OUT_PIN   PB1
-#define LBEAM_OUT_PIN   PB0
+#define BLIGHT_IN_PIN   PB11
+#define LED2_OUT_PIN    PB10
+#define LBEAM_OUT_PIN   PB1
+#define HBEAM_OUT_PIN   PB0
 #define HORN_OUT_PIN    PA7
-#define STOP_OUT_PIN    PA10
-#define ABREAK_IN_PIN   PA5
 #define ATEMP_IN_PIN    PA6
-#define BLIGHT_OUT_PIN  PA2
+#define BREAK_IN_PIN    PA5
+#define LVCS_IN_PIN     PA4
 #define FAN_OUT_PIN     PA3
+#define BLIGHT_OUT_PIN  PA2
 #define AUX_OUT_PIN     PA1
-#define BLIGHT_IN_PIN   PA0
+#define HVCS_IN_PIN     PA0
 #define LED_OUT_PIN     PC13
 
-void BoardSetup(void (*callback)(void));
+void BoardSetup(void (*callback)(void), void (*csFaultCallback)(void));
 
 #endif //BOARD_H

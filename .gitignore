@@ -63,3 +63,9 @@ eagle.epf
 
 # IntelliJIDEA
 .idea
+
+# PlatformIO
+firmware/.pio
+firmware/.pioenvs
+firmware/.piolibdeps
+firmware/CMakeListsPrivate.txt

@@ -6,17 +6,18 @@
 
 /*
  * Svetozar: an open-source e-vehicles peripherals controller
- * Supported board versions: v1.1 (with minor bugs), v1.2
+ * Supported board version: v1.2
  *
  * TODO:
  *  - analog temp sensor
  *
- *  IMPORTANT NOTES:
+ * NOTES:
  *   - switch CPU frequency to 48 MHz
  *   - edit config.h
  *   - do not use delay() function
  */
 
+bool csfault = false; //overcurrent shutdown
 bool blightOn = false;
 bool hbeamOn = false;
 bool lbeamOn = false;
@@ -27,11 +28,30 @@ bool hornOn = false;
 bool breakOn = false;
 bool auxOn = false;
 uint8 motorTemp = 0;
+uint16 fanValue = 0;
 
 bool routinesRunning;
 bool needQueryTemp = false;
 uint breakCtr = 0;
 uint turnCtr = 0;
+
+
+void csFaultTriggered() {
+    csfault = true;
+    pinMode(STOP_OUT_PIN,        OUTPUT);
+    digitalWrite(STOP_OUT_PIN,   HIGH); //off
+    pinMode(BLIGHT_OUT_PIN,      OUTPUT);
+    digitalWrite(BLIGHT_OUT_PIN, HIGH); //off
+    pinMode(FAN_OUT_PIN,         OUTPUT);
+    digitalWrite(FAN_OUT_PIN,    HIGH); //off
+    pinMode(AUX_OUT_PIN,         OUTPUT);
+    digitalWrite(AUX_OUT_PIN,    HIGH); //off
+    digitalWrite(LTURN_OUT_PIN,  HIGH); //off
+    digitalWrite(RTURN_OUT_PIN,  HIGH); //off
+    digitalWrite(HBEAM_OUT_PIN,  LOW);  //off
+    digitalWrite(LBEAM_OUT_PIN,  LOW);  //off
+    digitalWrite(HORN_OUT_PIN,   LOW);  //off
+}
 
 void readInPins() {
     // update input vars
@@ -45,9 +65,9 @@ void readInPins() {
     breakOn  = digitalRead(BREAK_IN_PIN)  == LOW;
     auxOn    = digitalRead(AUX_IN_PIN)    == LOW;
 
-    #if USE_ANALOG_STOP
-        breakOn = breakOn || (analogRead(ABREAK_IN_PIN) < STOP_ANALOG_THRESHOLD);
-    #endif
+//    #if USE_ANALOG_STOP
+        //breakOn = breakOn || (analogRead(ABREAK_IN_PIN) < STOP_ANALOG_THRESHOLD);
+//    #endif
 }
 
 void processPeriodicTask() { // called every 50 ms
@@ -56,12 +76,19 @@ void processPeriodicTask() { // called every 50 ms
 
     // update input data
     readInPins();  // sometimes EXTi interrupt is not fired, this helps
-motorTemp = blightOn ? 100 : 60; //TODO: remove
     needQueryTemp = true;
 
     // light up led if any input is triggered
     digitalWrite(LED_OUT_PIN, !(blightOn || hbeamOn || lbeamOn || rturnOn || lturnOn || warnOn || hornOn || breakOn || auxOn));
 
+    // LED2
+    if (csfault) {
+        digitalWrite(LED2_OUT_PIN, !digitalRead(LED2_OUT_PIN));
+        return;
+    } else {
+        digitalWrite(LED2_OUT_PIN, LOW);
+    }
+    
     // stoplight
     if (!breakOn) {
         breakCtr = 0;
@@ -94,7 +121,9 @@ motorTemp = blightOn ? 100 : 60; //TODO: remove
     pwmWrite(AUX_OUT_PIN, auxOn ? AUX_ON_VALUE : 0);
 
     // fan
-    pwmWrite(FAN_OUT_PIN, blightOn ? 1024 : 0); //calcFanPwm(motorTemp)
+    fanValue = min(fanValue+5, FAN_MAX_VALUE);
+    if (!lbeamOn) fanValue = 0;
+    pwmWrite(FAN_OUT_PIN, fanValue); //calcFanPwm(motorTemp) // blightOn ? 1024 : 0
     
     char buffer[100];
     uint16 v;
@@ -123,7 +152,7 @@ void setup() {
       CANSetup();  // Initialize the CAN module and prepare the message structures
     #endif
     
-    BoardSetup(readInPins);
+    BoardSetup(readInPins, csFaultTriggered);
     
     systick_attach_callback(processPeriodicTask);
     //Serial3.print("Setup over");

@@ -3,6 +3,7 @@
 #include "config.h"
 
 // PWM timers
+HardwareTimer htimer1(1);
 HardwareTimer htimer2(2);
 HardwareTimer htimer3(3);
 HardwareTimer htimer4(4);
@@ -17,30 +18,35 @@ void setPolarity(uint8 pin, uint8 pol) {
     timer_cc_set_pol(dev, cc_channel, pol);
 }
 
-void BoardSetup(void (*callback)(void)) {
+void BoardSetup(void (*callback)(void), void (*csFaultCallback)(void)) {
 
     // Inputs
-    pinMode(BLIGHT_IN_PIN, INPUT);
-    pinMode(HBEAM_IN_PIN,  INPUT);
-    pinMode(LBEAM_IN_PIN,  INPUT);
-    pinMode(RTURN_IN_PIN,  INPUT);
-    pinMode(LTURN_IN_PIN,  INPUT);
-    pinMode(WARN_IN_PIN,   INPUT);
-    pinMode(HORN_IN_PIN,   INPUT);
-    pinMode(BREAK_IN_PIN,  INPUT);
-    pinMode(AUX_IN_PIN,    INPUT);
-    pinMode(ABREAK_IN_PIN, INPUT_ANALOG);
-    pinMode(ATEMP_IN_PIN,  INPUT_ANALOG);
+    pinMode(BLIGHT_IN_PIN,  INPUT);
+    pinMode(HBEAM_IN_PIN,   INPUT);
+    pinMode(LBEAM_IN_PIN,   INPUT);
+    pinMode(RTURN_IN_PIN,   INPUT);
+    pinMode(LTURN_IN_PIN,   INPUT);
+    pinMode(WARN_IN_PIN,    INPUT);
+    pinMode(HORN_IN_PIN,    INPUT);
+    pinMode(BREAK_IN_PIN,   INPUT);
+    pinMode(CSFAULT_IN_PIN, INPUT_PULLUP);
+    pinMode(AUX_IN_PIN,     INPUT);
+    pinMode(ATEMP_IN_PIN,   INPUT_ANALOG);
+    pinMode(LVCS_IN_PIN,    INPUT_ANALOG);
+    pinMode(HVCS_IN_PIN,    INPUT_ANALOG);
 
     // Digital outputs
+    pinMode(CSSUPPLY_PIN,   OUTPUT);
     pinMode(LED_OUT_PIN,    OUTPUT);
+    pinMode(LED2_OUT_PIN,   OUTPUT);
     pinMode(CAN_SHDN_PIN,   OUTPUT);
     pinMode(LTURN_OUT_PIN,  OUTPUT);
     pinMode(RTURN_OUT_PIN,  OUTPUT);
     pinMode(HBEAM_OUT_PIN,  OUTPUT);
     pinMode(LBEAM_OUT_PIN,  OUTPUT);
     pinMode(HORN_OUT_PIN,   OUTPUT);
-    
+
+    digitalWrite(CSSUPPLY_PIN,    HIGH);  // CS supply on
     digitalWrite(LED_OUT_PIN,    HIGH);  // LED off
     digitalWrite(CAN_SHDN_PIN,   !CAN_BUS_ENABLED);
     digitalWrite(LTURN_OUT_PIN,  HIGH);  // off
@@ -51,13 +57,15 @@ void BoardSetup(void (*callback)(void)) {
     
     // PWM outputs
     pinMode(STOP_OUT_PIN,   PWM);
-    pinMode(BLIGHT_OUT_PIN, INPUT_PULLUP); //pinMode(BLIGHT_OUT_PIN, PWM);
+    pinMode(BLIGHT_OUT_PIN, PWM);
     pinMode(FAN_OUT_PIN,    PWM);
     pinMode(AUX_OUT_PIN,    PWM);
 
+    htimer1.setPrescaleFactor(1);
     htimer2.setPrescaleFactor(1);
     htimer3.setPrescaleFactor(1);
     htimer4.setPrescaleFactor(1);
+    htimer1.setOverflow(2047);
     htimer2.setOverflow(2047); //32768-1
     htimer3.setOverflow(2047);
     htimer4.setOverflow(2047);
@@ -79,14 +87,15 @@ void BoardSetup(void (*callback)(void)) {
     //Serial3.begin(115200);
 
     // External interrupts
-    attachInterrupt(BLIGHT_IN_PIN, callback, CHANGE);
-    attachInterrupt(HBEAM_IN_PIN,  callback, CHANGE);
-    attachInterrupt(LBEAM_IN_PIN,  callback, CHANGE);
-    attachInterrupt(LTURN_IN_PIN,  callback, CHANGE);
-    attachInterrupt(RTURN_IN_PIN,  callback, CHANGE);
-    attachInterrupt(WARN_IN_PIN,   callback, CHANGE);
-    attachInterrupt(HORN_IN_PIN,   callback, CHANGE);
-    attachInterrupt(BREAK_IN_PIN,  callback, CHANGE);
+    attachInterrupt(CSFAULT_IN_PIN, csFaultCallback, FALLING);
+    attachInterrupt(BLIGHT_IN_PIN,  callback,        CHANGE);
+    attachInterrupt(HBEAM_IN_PIN,   callback,        CHANGE);
+    attachInterrupt(LBEAM_IN_PIN,   callback,        CHANGE);
+    attachInterrupt(LTURN_IN_PIN,   callback,        CHANGE);
+    attachInterrupt(RTURN_IN_PIN,   callback,        CHANGE);
+    attachInterrupt(WARN_IN_PIN,    callback,        CHANGE);
+    attachInterrupt(HORN_IN_PIN,    callback,        CHANGE);
+    attachInterrupt(BREAK_IN_PIN,   callback,        CHANGE);
     #if BOARD_VER != BOARD_VER_1_1
         attachInterrupt(AUX_IN_PIN,    callback, CHANGE);
     #endif
